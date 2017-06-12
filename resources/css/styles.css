@@ -13,15 +13,16 @@ h1 {
 
   }
 
-  a {
+  a,
+  li {
     font-size: 18px;
     color: white;
   }
 
-  ol {
+  ul {
     list-style: none;
   }
 
   .header {
-    background-image: src("./resources/media/the-flatiron-building.png")
+    background-image: url('./the-flatiron-building.png');
   }
